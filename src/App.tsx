@@ -3,6 +3,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import HistoryPanel from "./components/HistoryPanel";
 import ThemeToggle from "./components/ThemeToggle";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import FeatureHighlights from "./components/FeatureHighlights";
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4">Create with AI</h1>
           <p className="text-lg text-gray-600">
-            Transform your ideas into videos with AI
+            Transform your ideas into stunning videos
           </p>
         </div>
 
@@ -28,11 +30,16 @@ function App() {
             </div>
           </div>
         </div>
-        
+
+        <div className="my-12">
+          <FeatureHighlights />
+        </div>
+
         <div className="text-center mt-12">
           <ThemeToggle />
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

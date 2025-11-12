@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">new generation ai</string>
+    <string name="title_activity_main">new generation ai</string>
+    <string name="package_name">com.example.newgenerationai</string>
+    <string name="custom_url_scheme">com.example.newgenerationai</string>
+</resources>
